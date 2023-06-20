@@ -483,25 +483,10 @@ img {
     width: 70%;
 }
 
-.skills__sql{
-    width: 40%;
-}
-
-.skills__r{
-    width: 0%;
-}
-
 .skills__html{
     width: 80%;
 }
 
-.skills__css{
-    width: 80%;
-}
-
-.skills__js{
-    width: 60%;
-}
 
 .skills__close .skills__list{
     height: 0;
@@ -632,7 +617,6 @@ img {
 
 /*==================== PROJECT ====================*/
 .project__container {
-
     overflow: initial;
     width: 100%;
 }
@@ -667,7 +651,10 @@ img {
 }
 
 .project__button{
-    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px
 }
 
 .project__button:hover .button__icon{
@@ -710,7 +697,7 @@ img {
 .footer__copy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: white;
     margin-top: var(--mb-3);
 }
 
@@ -841,6 +828,9 @@ img {
         display: flex;
         flex-direction: column;
         margin: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
     }
 }
 
@@ -994,6 +984,9 @@ img {
     .project__container{
         flex-direction: row;
         margin: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
     }
 }
 
@@ -1036,5 +1029,8 @@ img {
     .project__container{
         flex-direction: row;
         margin: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
     }
 }
