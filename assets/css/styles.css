@@ -459,6 +459,8 @@ img {
 
 /*======================SUPERIORITY==================*/
 .super__container{
+    overflow: initial;
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
@@ -486,6 +488,8 @@ img {
 }
 
 .icon-arange{
+    overflow: initial;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -493,7 +497,7 @@ img {
     margin-bottom: 30px;
     margin-right: 30px;
     color: black;
-    /*arange this 2-2*/
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
@@ -817,32 +821,14 @@ img {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-
-    .certif__container {
-        flex-direction: column;
-        align-items: center;
-    }
-      
-    .certif__data {
-        margin-right: 0;
-        text-align: center;
-    }
-
-    .certif__img1,
-    .certif__img2 {
-        width: 100%;
-        height: auto;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
+    
     .nav__menu{
         padding: 2rem .25rem 4rem;
     }
 
     .nav__list{
         column-gap: 0;
-    }
+    } 
 
     .home__social{
         grid-template-columns: max-content max-content;
@@ -851,6 +837,10 @@ img {
 
     .home__blob{
         width: 180px; 
+    }
+
+    .super__container{
+        display: none;
     }
 
     .skills__title{
@@ -901,6 +891,7 @@ img {
         display: flex;
         justify-content: center;
     }
+
 
     .about__container,
     .skills__container,
@@ -999,6 +990,8 @@ img {
     .home__scroll-button{
         margin-left: 3rem;
     }
+
+
 
     .about__container{
         column-gap: 5rem;
